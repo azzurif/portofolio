@@ -1,4 +1,4 @@
-import { Flowbite, Navbar, Button } from "flowbite-react";
+import { Flowbite, Navbar } from "flowbite-react";
 import React from "react";
 import { FaEnvelope, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
@@ -90,10 +90,14 @@ const App = () => {
 						Project
 					</h1>
 					<div className="grid sm:grid-cols-1 md:grid-cols-3 gap-6 w-full text-center px-20">
-						<article className="relative rounded-lg shadow transition hover:shadow-lg sm:w-80 md:w-auto h-60 overflow-hidden">
+						<a
+							href="https://github.com/azzurif/portofolio"
+							target="_blank"
+							className="relative rounded-lg shadow transition hover:shadow-lg sm:w-80 md:w-auto h-60 overflow-hidden"
+						>
 							<img
-								alt=""
-								src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
+								alt="Simple React Todolist"
+								src="/todolist-demo.png"
 								className="absolute inset-0 h-full w-full object-cover"
 							/>
 
@@ -103,11 +107,15 @@ const App = () => {
 								<h3 className="text-2xl text-white font-semibold">ToDo List</h3>
 								<p className=" text-sm text-gray-300">react</p>
 							</div>
-						</article>
-						<article className="relative rounded-lg shadow transition hover:shadow-lg sm:w-80 md:w-auto h-60 overflow-hidden">
+						</a>
+						<a
+							href="https://github.com/azzurif/Todolist-React"
+							target="_blank"
+							className="relative rounded-lg shadow transition hover:shadow-lg sm:w-80 md:w-auto h-60 overflow-hidden"
+						>
 							<img
-								alt=""
-								src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
+								alt="Portofolio"
+								src="/portofolio-demo.png"
 								className="absolute inset-0 h-full w-full object-cover"
 							/>
 
@@ -119,11 +127,15 @@ const App = () => {
 								</h3>
 								<p className=" text-sm text-gray-300">react</p>
 							</div>
-						</article>
-						<article className="relative rounded-lg shadow transition hover:shadow-lg sm:w-80 md:w-auto h-60 overflow-hidden">
+						</a>
+						<a
+							href="https://github.com/azzurif/ExpressJS-Supabase"
+							target="_blank"
+							className="relative rounded-lg shadow transition hover:shadow-lg sm:w-80 md:w-auto h-60 overflow-hidden"
+						>
 							<img
-								alt=""
-								src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
+								alt="Simple Crud with ExpressJS"
+								src="/crudExpress-demo.png"
 								className="absolute inset-0 h-full w-full object-cover"
 							/>
 
@@ -135,7 +147,7 @@ const App = () => {
 								</h3>
 								<p className=" text-sm text-gray-300">express</p>
 							</div>
-						</article>
+						</a>
 					</div>
 				</div>
 				{/* Contact */}
