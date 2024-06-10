@@ -1,9 +1,10 @@
 import { Flowbite, Navbar } from "flowbite-react";
 import React from "react";
-import About from "./components/About";
-import Home from "./components/Home";
-import Project from "./components/Project";
-import Contact from "./components/Contact";
+import Home from "@/components/Home";
+import About from "@/components/About";
+import Skill from "@/components/Sklill";
+import Project from "@/components/Project";
+import Contact from "@/components/Contact";
 
 const App = () => {
 	return (
@@ -36,6 +37,12 @@ const App = () => {
 							Projects
 						</Navbar.Link>
 						<Navbar.Link
+							href="#skill"
+							className="text-base text-last hover:underline hover:underline-offset-8"
+						>
+							Skills
+						</Navbar.Link>
+						<Navbar.Link
 							href="#contact"
 							className="text-base text-last hover:underline hover:underline-offset-8"
 						>
@@ -46,6 +53,7 @@ const App = () => {
 
 				<Home />
 				<About />
+				<Skill />
 				<Project />
 				<Contact />
 			</Flowbite>
